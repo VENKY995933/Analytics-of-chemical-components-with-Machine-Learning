@@ -1,0 +1,34 @@
+Project Title: Content-Based Cosmetic Product Recommendation System
+
+Overview:
+Developed a content-based recommendation system for cosmetic products, focusing on moisturizers designed for dry skin. The system leverages natural language processing (NLP) and machine learning techniques to identify and recommend alternative products based on ingredient similarity. The goal is to empower users with ingredient-level transparency and facilitate more informed, personalized skincare choices.
+
+Key Features:
+
+Data Collection: Web-scraped moisturizer product data, including ingredient lists, from Sephora.
+
+Preprocessing: Cleaned, tokenized, and standardized ingredient data to generate a document-term matrix.
+
+Similarity Analysis: Employed cosine similarity to evaluate and rank products based on ingredient composition.
+
+Dimensionality Reduction: Applied t-SNE to visualize product relationships in lower-dimensional space.
+
+Visualization: Built interactive visualizations using Bokeh to enable intuitive exploration of product similarities.
+
+User Impact: Enables users to find ingredient-based alternatives, promotes cost-effective skincare options, and supports informed product choices.
+
+Technologies Used:
+
+Python (Pandas, Scikit-learn)
+
+Natural Language Processing (NLP)
+
+Cosine Similarity
+
+t-SNE for dimensionality reduction
+
+Bokeh for interactive visualizations
+
+Data Source:
+
+Web-scraped product and ingredient data from Sephora
